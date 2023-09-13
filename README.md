@@ -1,6 +1,6 @@
 # API Documentation
 # Overview
-This document provides an overview of the API structure and key components of the API. It is pertinent to note that this API was created with the assumption that more than a person can have the same name and details, they are differentiated by an automatically generated id.
+This document provides an overview of the API structure and key components of the API. It is pertinent to note that this API was created with the assumption that more than a person can have the same name and details, they are differentiated by an automatically generated id. Therefore, a person can be called using the id for the person as it is the only field that is different for all persons. Once a person is called by the id, all CRUD operations would be able to be performed on the person.
 # Getting Started
 To run the API locally, follow these steps:
 ### Prerequisite:
